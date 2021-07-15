@@ -1,18 +1,16 @@
-// Initialize the variables from the json confile file
-// Forked from https://github.com/tkanos/gonfig
-
 package config
 
 import (
-	"github.com/tkanos/gonfig"
 	"fmt"
+
+	"github.com/tkanos/gonfig"
 )
 
 // Config structure
 type Config struct {
-	Region string
+	Region           string
 	OrganizationRole string
-	MasterAccountID string
+	MasterAccountID  string
 }
 
 // InitVariables based on json file
